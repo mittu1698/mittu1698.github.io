@@ -1,5 +1,8 @@
-import React from "react"
+import React, {useEffect, useState} from "react"
+import MainComponent from "../components/MainComponent";
 
 export default function Home() {
-  return <div>Hello world!</div>
+  return (
+      <MainComponent/>
+  );
 }
