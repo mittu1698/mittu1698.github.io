@@ -6,6 +6,7 @@
 
 module.exports = {
     /* Your site config here */
+    pathPrefix: "/mittu1698.github.io",
     plugins: [
         "@fortawesome/fontawesome-svg-core",
         "@fortawesome/free-brands-svg-icons",
