@@ -1,5 +1,4 @@
 import React, {useEffect, useState} from "react";
-import my_pic from "../images/my_pic_9.png";
 
 function LandingPage() {
     // useEffect(() => {

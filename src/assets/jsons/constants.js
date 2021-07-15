@@ -23,7 +23,8 @@ export const techStacks = [
         "font_awesome_icon": faJava,
         "level": 8,
         "description": "Have a strong understanding of Java 8 concepts and an excellent grasp of Java OOPS concepts. The multi-threading concept interests me greatly where it is a subject I've experimented with and worked on few projects. Have worked on Java GUI tools like Java swing and Java FX!",
-        "experience": "01/06/2018"
+        "experienceFrom": "01/06/2018",
+        "experienceTo": ""
     },
     {
         "tech": "Spring Boot",
@@ -31,8 +32,9 @@ export const techStacks = [
         "secondary_color": "cbb4d4",
         "font_awesome_icon": faPagelines,
         "level": 7,
-        "description": "",
-        "experience": "01/06/2018"
+        "description": "Have been working on this framework in my current organisation. Have experience in working with hibernate as ORM in some personal projects. Also have experimented with Spring Security to some extent.",
+        "experienceFrom": "01/01/2021",
+        "experienceTo": ""
     },
     {
         "tech": "Python",
@@ -40,8 +42,9 @@ export const techStacks = [
         "secondary_color": "b21f1f",
         "font_awesome_icon": faPython,
         "level": 7,
-        "description": "",
-        "experience": "01/06/2018"
+        "description": "The language with which I have started both my programming and professional careers. I worked on web development frameworks,  web scraping, web crawling and machine learning projects,  all of which coded in this language. ",
+        "experienceFrom": "05/01/2019",
+        "experienceTo": "06/07/2021"
     },
     {
         "tech": "Django",
@@ -49,17 +52,19 @@ export const techStacks = [
         "secondary_color": "ff9966",
         "font_awesome_icon": null,
         "level": 10,
-        "description": "",
-        "experience": "01/06/2018"
+        "description": "It is the first framework that I learnt and the one that I like a lot. Have learnt many concepts in it starting from very basic point of how Django serves a request to very advanced topic like creating custom serializers for Django Rest Api framework!",
+        "experienceFrom": "05/01/2020",
+        "experienceTo": "06/07/2021"
     },
     {
-        "tech": "Flask",
+        "tech": "Kotlin",
         "primary_color": "556270",
         "secondary_color": "4ecdc4",
         "font_awesome_icon": null,
         "level": 5,
-        "description": "",
-        "experience": "01/06/2018"
+        "description": "I call it as python version of Java. The thing that I don't like in python is indentation and that in Java is detailed syntaxes. When these both are combined to make a simpler but crispier language, of course, I would fall in love with it and so I did. The more I coded in it, the more I loved it.",
+        "experienceFrom": "06/07/2021",
+        "experienceTo": ""
     },
     {
         "tech": "Javascript",
@@ -67,8 +72,9 @@ export const techStacks = [
         "secondary_color": "bdc3c7",
         "font_awesome_icon": faJs,
         "level": 7,
-        "description": "",
-        "experience": "01/06/2018"
+        "description": "I still wonder whenever I realise that this language is single-threaded, given the magic it does to the user's eyes! Yep, a confusing language (0 == \"0\" -> true, 0 == [] -> true, \"0\" == [] -> uhhh, that makes sense but false :P ) but a damn powerful one! ",
+        "experienceFrom": "05/01/2018",
+        "experienceTo": ""
     },
     {
         "tech": "React JS",
@@ -76,8 +82,9 @@ export const techStacks = [
         "secondary_color": "7b4397",
         "font_awesome_icon": faReact,
         "level": 8,
-        "description": "",
-        "experience": "01/06/2018"
+        "description": "This portfolio is built on React JS. I hope it doesn't need any more description than that :P. Well, it is as awesome (easy to learn and simple to code if you understand it perfectly) as powerful it is and is as easy as tricky it is when it comes to solving bugs ;)",
+        "experienceFrom": "01/01/2021",
+        "experienceTo": ""
     },
     {
         "tech": "SQL",
@@ -85,8 +92,9 @@ export const techStacks = [
         "secondary_color": "BD3F32",
         "font_awesome_icon": faDatabase,
         "level": 8,
-        "description": "",
-        "experience": "01/06/2018"
+        "description": ">>> Select password from user table where name = 'Use***'; nope not that easy! It's gonna be encrypted, so no use :P. Except for my ML projects, I almost used this tech in every project that I worked on. I believe querying is as important as the data itself. ",
+        "experienceFrom": "12/01/2016",
+        "experienceTo": ""
     },
     {
         "tech": "HTML",
@@ -94,8 +102,9 @@ export const techStacks = [
         "secondary_color": "D76D77",
         "font_awesome_icon": faHtml5,
         "level": 9,
-        "description": "",
-        "experience": "01/06/2018"
+        "description": "A language that you might feel like you know everything but realise that a lot exists to learn. Learnt from the famous book written by \"Jon Duckett\", dint get a need to look back into the book for any syntax given the simplicity of it to memorise them effortlessly ;)",
+        "experienceFrom": "01/06/2018",
+        "experienceTo": ""
     },
     {
         "tech": "CSS",
@@ -103,8 +112,9 @@ export const techStacks = [
         "secondary_color": "E29587",
         "font_awesome_icon": faCss3,
         "level": 9,
-        "description": "",
-        "experience": "01/06/2018"
+        "description": "I believe the number of tricks to achieve a task outnumber the direct ways to achieve it in CSS :P.   This language is not just about predefined syntaxes but also about \"think outside the box\" thoughts. Creating something that I thought in mind with CSS gives an incomparable feeling of achievement. ",
+        "experienceFrom": "01/06/2018",
+        "experienceTo": ""
     },
     {
         "tech": "GIT",
@@ -112,8 +122,11 @@ export const techStacks = [
         "secondary_color": "B06AB3",
         "font_awesome_icon": faGit,
         "level": 9,
-        "description": "",
-        "experience": "01/06/2018"
+        "description": ">> git commit -m 'Thanks for visiting my site!'<br/>" +
+            "Gitophobia = fear of merging branches in GIT :P<br/>" +
+            "Strange thing is that even when our minds know that a particular merge can be rolled back, they still used to worry for some reason. Strange minds!",
+        "experienceFrom": "01/01/2020",
+        "experienceTo": ""
     }
 ];
 
@@ -552,7 +565,7 @@ export const wintWealthPythonCode = '<div class="python-code-line">' +
     '<div class="python-code-line">' +
     tabSpace + '<span class="python-code-variable">experience</span>' +
     '<span class="python-code-operator">=</span>' +
-    '<span class="python-code-string">"Jun 2021 - Present ('+prettifyDate("06/07/2021")+')"</span>' +
+    '<span class="python-code-string">"Jun 2021 - Present (' + prettifyDate("06/07/2021", "") + ')"</span>' +
     '</div>' +
     '<div class="python-code-line">' +
     tabSpace + '<span class="python-code-variable">techs_worked</span>' +
@@ -679,36 +692,35 @@ export const errorEmojis = {
     8: "\\(&#8728;_&#8728;)/",
 }
 
-export function prettifyDate(inputDate, dob=false){
-    const today = new Date();
-    inputDate = new Date(inputDate);  // format is 'MM-DD-YYYY'
-    const days = (today - inputDate)/ (1000 * 3600 * 24);
+export function prettifyDate(firstDate, lastDate, dob = false) {
+    let today = new Date();
+    if (lastDate !== "") {
+        today = new Date(lastDate);
+    }
+    firstDate = new Date(firstDate);  // format is 'MM-DD-YYYY'
+    const days = (today - firstDate) / (1000 * 3600 * 24);
     const weeks = Math.round(days / 7);
     const months = Math.round(days / 30);
     const years = Math.round(days / 365);
-    if(days < 0){
+    if (days < 0) {
         return "0 days"
-    }
-    else if (days < 7){
+    } else if (days < 7) {
         return days + " days";
-    }
-    else if(days < 30){
-        if(weeks === 1){
+    } else if (days < 30) {
+        if (weeks === 1) {
             return "1 week";
         }
         return weeks + " weeks";
-    }
-    else if(days < 365){
-        if(months === 1){
+    } else if (days < 365) {
+        if (months === 1) {
             return "1 month";
         }
         return months + " months";
-    }
-    else{
-        if(dob){
-            return Math.floor(days/365);
+    } else {
+        if (dob) {
+            return Math.floor(days / 365);
         }
-        if(years === 1){
+        if (years === 1) {
             return "1 year";
         }
         return years + " years";

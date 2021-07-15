@@ -1,4 +1,4 @@
-import "./src/assets/styles/style.scss"
+import "./src/css/style.scss"
 
 export const onInitialClientRender = () => {
     setTimeout(function() {

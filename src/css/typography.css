@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "Recoleta";
+    src: local("Recoleta"),
+    url("../fonts/Recoleta.ttf") format("truetype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "OperatorMono";
+    src: local("OperatorMono"),
+    url("../fonts/OperatorMono.ttf") format("truetype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "OperatorMonoItalic";
+    src: local("OperatorMonoItalic"),
+    url("../fonts/OperatorMonoItalic.ttf") format("truetype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "KaushanScript";
+    src: local("KaushanScript"),
+    url("../fonts/KaushanScript.ttf") format("truetype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Pacifico";
+    src: local("Pacifico"),
+    url("../fonts/Pacifico.ttf") format("truetype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "DancingScript";
+    src: local("DancingScript"),
+    url("../fonts/DancingScript.ttf") format("truetype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "JetBrainsMono";
+    src: local("JetBrainsMono"),
+    url("../fonts/JetBrainsMono.ttf") format("truetype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "JetBrainsMonoItalic";
+    src: local("JetBrainsMonoItalic"),
+    url("../fonts/JetBrainsMonoItalic.ttf") format("truetype");
+    font-weight: normal;
+}

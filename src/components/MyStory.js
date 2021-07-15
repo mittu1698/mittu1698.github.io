@@ -7,11 +7,11 @@ function MyStory(props) {
             <div className="my-story-main">
                 <div className="watermark-quote my-story-quote-one" style={{
                     top: "-4.5rem", left: "3rem", "-webkit-text-stroke-width": "2px",
-                    "-webkit-text-stroke-color": "#fb5c44"
+                    WebkitTextStrokeColor: "#fb5c44"
                 }}>&#10075;</div>
                 <div className="watermark-quote my-story-quote-two" style={{
                     top: "-5rem", left: "6.5rem", "-webkit-text-stroke-width": "2px",
-                    "-webkit-text-stroke-color": "#fb5c44"
+                    WebkitTextStrokeColor: "#fb5c44"
                 }}>&#10075;</div>
                 <div className="my-story-inner full-box">
                     <p className="disclaimer">Disclaimer: To all those who expect it to be inspirational,
@@ -24,7 +24,7 @@ function MyStory(props) {
                         anyone. But I have never shied away from any challenge that has been put before. Rather, I
                         welcomed
                         it; I strived to be better than I was, to understand those around me and myself. </p>
-                    <p>I am a {prettifyDate("12/16/1998", true)}-year-old Software Developer (No matter front-end or back-end or ML, in the end, it all
+                    <p>I am a {prettifyDate("12/16/1998","", true)}-year-old Software Developer (No matter front-end or back-end or ML, in the end, it all
                         comes down to 0 and 1 ;) from India. The way life turns is unimaginable.
                         Little did I know, a few years back that there would be a stage where I would create a website
                         for

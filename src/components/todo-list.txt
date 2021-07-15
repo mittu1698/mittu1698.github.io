@@ -12,9 +12,13 @@ not done: make any letter in first page toggle till the user scrolls onto it
 not done: give border color like https://dribbble.com/shots/15144234-Binary-Converter-Darkmode for mystory div
            (refer this https://css-tricks.com/almanac/properties/b/border-image/) (takes much time to do this)
 done (check again): incomplete "products_developed" under professional.js
-not done: incomplete description under tech stacks
-not done: incomplete logos in tech stacks
+done: incomplete description under tech stacks
+not done(not requried for now): incomplete logos in tech stacks
 not done: gmail in the footer is not linked. try to add modal with mailing option!
+not done: not mobile friendly page!
+not done: add "double click to select. Single click to expand folder" text under folder tree
+not done: make footer text change to scroll values dynamically
+not done: transfer coffee to footer
 
 
 done: go to google fonts, type some scratch and search, use the innovate symbols they give to show 404 error
